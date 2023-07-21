@@ -1,0 +1,30 @@
+﻿@using BL;
+
+<table cellspacing="60px" cellpadding="10px" >
+    <tr>
+        <td>Id</td>
+        <td>Name</td>
+        <td>Salary</td>
+        <td>Dept</td>
+        <td>Email</td>
+        <td>Password</td>
+        <td>Action</td>
+    </tr>
+    @{
+        List<Employee> allDepartments= (List<Employee>)ViewData["emps"];
+        foreach(Employee e in allDepartments)
+        {
+            <tr>
+                <td>@e.Id</td>
+                <td>@e.Name</td>
+                <td>@e.Salary</td>
+                <td>@e.Dept</td>
+                <td>@e.Email</td>
+                <td>@e.Password</td>
+                <td><a href="/employee/delete/@e.Id">Delete</a></td>
+                <td><a href="/employee/update/@e.Id">Update</td>
+            </tr>
+        }
+    }
+</table>
+<hr />

@@ -1,0 +1,194 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\dotnet\\HRApplication\\HRApplication\\HRApplication.csproj": {}
+  },
+  "projects": {
+    "E:\\dotnet\\HRApplication\\BL\\BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\dotnet\\HRApplication\\BL\\BL.csproj",
+        "projectName": "BL",
+        "projectPath": "E:\\dotnet\\HRApplication\\BL\\BL.csproj",
+        "packagesPath": "C:\\Users\\Vaibhav\\.nuget\\packages\\",
+        "outputPath": "E:\\dotnet\\HRApplication\\BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vaibhav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\dotnet\\HRApplication\\DBConnection\\DBConnection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\dotnet\\HRApplication\\DBConnection\\DBConnection.csproj",
+        "projectName": "DBConnection",
+        "projectPath": "E:\\dotnet\\HRApplication\\DBConnection\\DBConnection.csproj",
+        "packagesPath": "C:\\Users\\Vaibhav\\.nuget\\packages\\",
+        "outputPath": "E:\\dotnet\\HRApplication\\DBConnection\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vaibhav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\dotnet\\HRApplication\\BL\\BL.csproj": {
+                "projectPath": "E:\\dotnet\\HRApplication\\BL\\BL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\dotnet\\HRApplication\\HRApplication\\HRApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\dotnet\\HRApplication\\HRApplication\\HRApplication.csproj",
+        "projectName": "HRApplication",
+        "projectPath": "E:\\dotnet\\HRApplication\\HRApplication\\HRApplication.csproj",
+        "packagesPath": "C:\\Users\\Vaibhav\\.nuget\\packages\\",
+        "outputPath": "E:\\dotnet\\HRApplication\\HRApplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vaibhav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\dotnet\\HRApplication\\BL\\BL.csproj": {
+                "projectPath": "E:\\dotnet\\HRApplication\\BL\\BL.csproj"
+              },
+              "E:\\dotnet\\HRApplication\\DBConnection\\DBConnection.csproj": {
+                "projectPath": "E:\\dotnet\\HRApplication\\DBConnection\\DBConnection.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

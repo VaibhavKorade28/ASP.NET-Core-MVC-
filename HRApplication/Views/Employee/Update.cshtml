@@ -1,0 +1,19 @@
+﻿@using BL;
+@{
+    Employee emp = ViewBag.newEmp; 
+}
+<form action="/employee/update" method="post">
+    <label for="id">EmployeeName:</label>
+    <input type="text" required class="form-control" id="id" readonly name="id" value="@emp.Id">
+    <label for="name">EmployeeName:</label>
+    <input type="text" required class="form-control" id="name" name="name" value="@emp.Name">
+    <label for="dept">Department:</label>
+    <input type="text" required class="form-control" id="dept" name="dept" value="@emp.Dept">
+    <label for="sal">Salary:</label>
+    <input type="text" required class="form-control" id="sal" name="sal" value="@emp.Salary">
+    <label for="email">Email:</label>
+    <input type="email" required class="form-control" id="email" name="email" value="@emp.Email">
+    <label for="password">Password:</label>
+    <input type="passwprd" required class="form-control" id="password" name="password" value="@emp.Password">
+    <button type="submit" class="btn btn-default btn-success">Update</button>
+</form>

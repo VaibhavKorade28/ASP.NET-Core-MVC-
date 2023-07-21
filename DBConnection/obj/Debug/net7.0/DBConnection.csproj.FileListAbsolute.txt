@@ -1,0 +1,15 @@
+E:\dotnet\HRApplication\DBConnection\bin\Debug\net7.0\DBConnection.deps.json
+E:\dotnet\HRApplication\DBConnection\bin\Debug\net7.0\DBConnection.dll
+E:\dotnet\HRApplication\DBConnection\bin\Debug\net7.0\DBConnection.pdb
+E:\dotnet\HRApplication\DBConnection\bin\Debug\net7.0\BL.dll
+E:\dotnet\HRApplication\DBConnection\bin\Debug\net7.0\BL.pdb
+E:\dotnet\HRApplication\DBConnection\obj\Debug\net7.0\DBConnection.csproj.AssemblyReference.cache
+E:\dotnet\HRApplication\DBConnection\obj\Debug\net7.0\DBConnection.GeneratedMSBuildEditorConfig.editorconfig
+E:\dotnet\HRApplication\DBConnection\obj\Debug\net7.0\DBConnection.AssemblyInfoInputs.cache
+E:\dotnet\HRApplication\DBConnection\obj\Debug\net7.0\DBConnection.AssemblyInfo.cs
+E:\dotnet\HRApplication\DBConnection\obj\Debug\net7.0\DBConnection.csproj.CoreCompileInputs.cache
+E:\dotnet\HRApplication\DBConnection\obj\Debug\net7.0\DBConnection.csproj.CopyComplete
+E:\dotnet\HRApplication\DBConnection\obj\Debug\net7.0\DBConnection.dll
+E:\dotnet\HRApplication\DBConnection\obj\Debug\net7.0\refint\DBConnection.dll
+E:\dotnet\HRApplication\DBConnection\obj\Debug\net7.0\DBConnection.pdb
+E:\dotnet\HRApplication\DBConnection\obj\Debug\net7.0\ref\DBConnection.dll
